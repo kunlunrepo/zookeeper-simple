@@ -14,7 +14,7 @@ public class ZKUtils {
 
     private static ZooKeeper zk;
 
-    private static String address = "192.168.10.81:2181,192.168.10.82:2181,192.168.10.83:2181,192.168.10.84:2181/testConf";
+    private static String address = "192.168.10.81:2181,192.168.10.82:2181,192.168.10.83:2181,192.168.10.84:2181/lockConf";
 
     private static DefaultWatch watch = new DefaultWatch();
 
